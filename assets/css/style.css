@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: white;  
+    background-image: url('../images/FB_IMG_1639349961103\ -\ Shortcut.lnk');
+    background-size: cover;
+    position: relative;
+  }
+
+  header {
+    padding: 20px 30px;
+    font-style: normal;
+
+}
