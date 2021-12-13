@@ -1,19 +1,140 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    background-color: white;  
-    background-image: url('../images/FB_IMG_1639349961103\ -\ Shortcut.lnk');
-    background-size: cover;
-    position: relative;
+    background-color: blueviolet;  
+
+  }
+
+  section {
+    padding: 60px;
   }
 
   header {
     padding: 20px 30px;
     font-style: normal;
-
+    background-color: black;
 }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    display: inline;
+  }
+
+  header a {
+    text-decoration: none;
+    color: white;
+  }
+
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+
+  header nav ul li {
+    display: inline;
+  }
+
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .about-img {
+    image-rendering: auto;
+    display: block;
+    margin: 10px auto;
+    float: right;
+    min-width: 35%;
+    min-height: 40%;
+  }
+  
+  .about-bio {
+    height: 200px;
+    margin: 20px auto 30px auto;
+    background: black;
+    color: white;
+    text-align: center; 
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .about-p {
+      font-size: 16px;
+      line-height: 1.3;
+    }
+
+    .text-left {
+      text-align: left;
+    }
+
+    .text-right {
+      text-align: right;
+    }
+
+    .projects {
+    text-align: center;
+    }
+
+    .project {
+      height: 250px;
+      margin: 0 auto 30px auto;
+      background: black;
+      color: white;
+      text-align: center; 
+      overflow: auto;
+    }
+
+    .projects h3 {
+      font-weight: lighter;
+      display: left;
+      font-size: 16px;
+      margin: 0;
+    }
+
+    .project-sum {
+      font-weight: lighter;
+      text-align: left;
+    }
+
+    .contact-info {
+      text-align: center;
+      background: black;
+    }
+
+    .contact {
+      height: 250px;
+      background: black;
+      margin: 0 auto 30px auto;
+      text-align: center;
+    }
+
+    .contact-info p, .contact-info address {
+      margin: 20px 0;
+      line-height: 1.5;
+      font-size: 20px;
+      font-style: normal;
+  }
+
+  .contact h2 {
+    font-weight: bold;
+    display: center;
+    font-size: 18px;
+  }
+
+  .contact-info div {
+    background-color: black;
+    height: 250px;
+    margin: 0;
+  }
